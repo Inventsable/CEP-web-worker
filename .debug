@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionList>
+    <Extension Id="com.worker-sample.panel">
+        <HostList>
+            <Host Name="ILST" Port="6612" />
+            <Host Name="AEFT" Port="6613" />
+            <Host Name="PHXS" Port="6614" />
+            <Host Name="PPRO" Port="6615" />
+            <Host Name="IDSN" Port="6616" />
+            <Host Name="AUDT" Port="6617" />
+        </HostList>
+    </Extension>
+</ExtensionList>
