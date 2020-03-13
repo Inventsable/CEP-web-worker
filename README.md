@@ -11,7 +11,7 @@ import Worker from "worker-loader!./worker.js";
 // Notice the './worker.js' suffix is pointing to the worker's location relative to this component
 ```
 
-In ./src/components/HelloWorld.vue, we initialize the worker, post a message to it, and create an event listener for it's response:
+In [./src/components/HelloWorld.vue](https://github.com/Inventsable/CEP-web-worker/blob/master/src/components/HelloWorld.vue), we initialize the worker, post a message to it, and create an event listener for it's response:
 
 ```js
 testWorker() {
@@ -31,7 +31,7 @@ testWorker() {
 }
 ```
 
-The contents of ./src/components/worker.js are:
+The contents of [./src/components/worker.js](https://github.com/Inventsable/CEP-web-worker/blob/master/src/components/worker.js) are:
 
 ```js
 // This is the function triggered by the initial worker.postMessage:
