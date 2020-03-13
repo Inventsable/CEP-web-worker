@@ -10,18 +10,12 @@
 import Worker from "worker-loader!./worker.js";
 
 export default {
-  data: () => ({
-    message: ""
-  }),
   components: {
     Panel: require("./Panel.vue").default,
     Menus: require("./Menus.vue").default,
     Button: require("./Button.vue").default
   },
   methods: {
-    testMsg() {
-      console.log("Hello?");
-    },
     testWorker() {
       console.log("Test");
       // If workers are supported
